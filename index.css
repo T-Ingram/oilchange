@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #0279f881, #0ff1e27f); 
+}
+  
+
+  h1 {
+    font-family: Georgia, serif; 
+    color: #010101; 
+}
+  
+ 
+  section, main {
+    border: 4px solid #33333335; 
+    padding: 15px; 
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px 0;
+    borders: 4px solid #3333331f;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 75%;
+    text-align: center;
+    padding: 20px 20px 20px 0px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 20px;
+}
+
+
+
