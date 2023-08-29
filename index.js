@@ -8,7 +8,7 @@ displayCurrentDate();
 function displayGreeting() {
     const userName = document.getElementById("userName").value;
     const greetingMessage = document.getElementById("greetingMessage");
-    greetingMessage.textContent = `Hello, ${userName}! Welcome to your oil change guide!`;
+    greetingMessage.textContent = `Hello, ${userName} Welcome to your oil change guide!`;
 }
 
 function displayImages() {
@@ -36,8 +36,6 @@ function displayImages() {
 function displayInstructions() {
     const transmissionSelect = document.getElementById("transmission");
     const selectedTransmission = transmissionSelect.value;
-
-
 
     if (selectedTransmission === "") {
         // No transmission type selected, show an error message
@@ -70,4 +68,16 @@ function displayImage(imageUrl, altText) {
     img.alt = altText;
     img.width = 200;
     imageSection.appendChild(img);
+}
+
+function howMuchOil(){
+   let quarts = prompt ("How many quarts of oil does your engine take? 1-10");
+        console.log(quarts)
+   while (quarts <1 || quarts >10){
+        quarts = prompt ("Please try again. How many quarts of oil does your engine take? 1-10");
+   }
+        document.write("Your vehicle takes " + quarts + " quarts of oil.")
+        document.write("<img src ='https://live.staticflickr.com/4782/40539836532_13f1f16e97_b.jpg' alt = 'Quart of oil' width = '60'>")   
+   for (let i = 1; i < quarts; i++){
+        document.write("<img src ='https://live.staticflickr.com/4782/40539836532_13f1f16e97_b.jpg' alt = 'Quart of oil' width = '60'>")}
 }
