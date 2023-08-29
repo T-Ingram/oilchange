@@ -54,11 +54,6 @@ function displayInstructions() {
         instructionMessage.textContent = "Please select a valid transmission type.";
         transmissionSelect.value = ""; // Clear the selection
     }
-
-
-
-
-
 }
 
 function displayImage(imageUrl, altText) {
