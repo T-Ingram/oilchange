@@ -5,6 +5,7 @@ function displayCurrentDate() {
 }
 displayCurrentDate();
 
+
 function displayGreeting() {
     const userName = document.getElementById("userName").value;
     const greetingMessage = document.getElementById("greetingMessage");
@@ -76,3 +77,4 @@ function howMuchOil(){
    for (let i = 1; i < quarts; i++){
         document.write("<img src ='https://live.staticflickr.com/4782/40539836532_13f1f16e97_b.jpg' alt = 'Quart of oil' width = '60'>")}
 }
+
